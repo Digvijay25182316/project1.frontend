@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+.login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo', sans-serif;
+    height:70vh;
+}
+.login_Container{
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 5px 10px rgb(56, 55, 55) ;
+    height: 30vmax;
+    width: 40vmax;
+    margin:5vmax auto;
+}
+
+.labels{
+    color: black;
+    font-weight: bold;
+}
+
+.login_Contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:3vmax 1vmax;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.login_btn{
+    width: fit-content;
+    padding:0px 2vmax;
+    display: flex;
+    margin:2vmax auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #0066ff 0%, #66ccff 100%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .login_Container {
+        padding: 10px 8px;
+        margin-top: 7em;
+        margin-bottom: 26vmax;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+
+    .login_main{
+        margin-bottom: 100px;
+    }
+  }
+
+@media screen and (max-width: 280px) {
+    .login_Container{
+        padding: 8px 1px;
+    }
+
+}

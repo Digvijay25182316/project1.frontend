@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+.main_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo', sans-serif;
+    height:50vmax;
+}
+
+.form_Container_R{
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 5px 10px rgb(56, 55, 55) ;
+    height: fit-content;
+    width: 40vmax;
+}
+hr.HR{
+    border: 1px solid rgb(233, 232, 232);
+    width: 35vmax;
+    margin: auto;
+}
+.form_contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.lable{
+    color: black;
+    font-weight: bold;
+}
+.form_inputs{
+    padding: 5px;
+    font-size: medium;
+    width: fit-content;
+    outline: none;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 5px;
+}
+.register_btn{
+    font-family: 'Exo', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #0066ff 0%, #66ccff 100%);
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input_btn{
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .form_contents{
+        padding: 10px 8px;
+    }
+    .form_Container_R{
+        margin-top: 7em;
+    }
+  }
+@media screen and (max-width: 600px) {
+
+    .form_contents{
+        padding: 10px 8px;
+    }
+    .form_Container_R{
+        margin-top: 1em;
+    }
+    .main_Container{
+    height:80vh;
+    }
+  }
+@media screen and (max-width: 280px) {
+
+    .form_contents{
+        padding: 8px 0px;
+    }
+    .form_Container_R{
+        width: 40vmax;
+    }
+    .form_inputs{
+        font-size: small;
+
+    }
+    .lable{
+        font-size: small;
+    }
+  }

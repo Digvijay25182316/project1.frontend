@@ -1,0 +1,16 @@
+.footer_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+    .footer_main{
+        margin-left: 30vmax;
+    }
+}
+@media screen and (width: 912px){
+    .footer_main{
+        margin-left: 51vmax;
+    }
+}

@@ -1,0 +1,46 @@
+.home_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/favicon.png");
+    background-size: 26em;
+    height: 37vh;
+    background-repeat:  no-repeat;
+    height: 50vh;
+    margin-bottom: 4vmax;
+}
+.blank{
+    height: 30vmax;
+}
+
+.animated_Text{
+    color: aliceblue;
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    background: #2e2e2e;
+    border-radius: 10px;
+box-shadow:  8px 28px 57px #262626, -3px -25px 57px #363636;
+font-size: 4vmax;
+}
+
+@media screen and (max-width:1000px){
+    .home_main{
+        flex-direction: column;
+        margin-bottom: 136px;
+    }
+}
+@media screen and (max-width:600px){
+    .blank{
+        width: 30vmax;
+        height: 70vmax;
+    }
+    .animated_Text{
+        width: 40vmax;
+        margin-left: 0px;
+    }
+}

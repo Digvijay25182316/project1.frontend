@@ -1,0 +1,17 @@
+.TableTitle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Table_title{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.TitleContent{
+    padding: 0% 12%;
+}
+
+.Table_User_btn{
+    padding: 0% 12%;
+}
