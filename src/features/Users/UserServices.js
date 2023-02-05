@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const API_URL = "http://localhost:5000/api/v1/";
+import { API_URL } from "../../App";
 
 const getAllUsers = async () => {
   const reponse = await axios.get(API_URL + "admin/users", {

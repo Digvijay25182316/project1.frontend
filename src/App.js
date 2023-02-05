@@ -19,6 +19,9 @@ import { AppsMenu } from "./components/appsMenu/appsMenu";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import NotAdmin from "./components/ProtectedRoute/NotAdmin";
 
+export const API_URL =
+  process.env.REACT_APP_SERVER_URL || "http://localhost:5000/api/v1/";
+
 function App() {
   const { user, token } = useSelector((state) => state.auth);
   const [isAuthenticated, setIsAuthenticated] = useState(false);

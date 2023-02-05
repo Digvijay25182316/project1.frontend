@@ -53,6 +53,7 @@ const Login = () => {
     }
     if (user || token) {
       navigate("/");
+      toast.success(message);
     }
   }, [user, token, isError, isLoading, navigate, dispatch, message]);
 

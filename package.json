@@ -16,7 +16,6 @@
     "@testing-library/user-event": "^14.4.3",
     "ag-grid-react": "^29.0.0",
     "axios": "^1.2.4",
-    "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-animated-text": "^0.1.4",
     "react-dom": "^18.2.0",

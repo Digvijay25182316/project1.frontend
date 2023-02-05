@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/v1/";
+import { API_URL } from "../../App";
 
 const createDevotee = async (devoteeData) => {
   const response = await axios.post(API_URL + "devotee/register", devoteeData, {
